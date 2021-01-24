@@ -1,0 +1,28 @@
+GIT WORKFLOW
+
+
+
+Glossary
+
+- Workspace == Work directory --- modified stage state
+- Index == Stage
+- Local Repository == Head
+- Remote Repository == Aka Github
+
+Workflow to adding a file into Git
+-- git init == initiate the git
+-- git status == status about the current repository
+-- git clone == local copy of the remote repository to your local Rep.
+-- git add == Add a file from workspace into stage space, then the file will be marked to be committed
+-- git commit -m == Now, file which is marked staged, will be added to the local repository // -m option , add an commit message with the command
+-- git commit -a == The git will stage the file (add) and commit then all in a once command. (Good for known files in the local rep)
+-- git push == Take the file from local rep. and add into the remote rep.
+
+
+Workflow to Getting files from Git into Workspace
+
+-- git fetch == Get file from the remote rep. into the local rep. for now, you are not be able to see the files in a workplace directory
+-- git pull == get file from remote rep. into the worskpace directory (be careful) // You cant compare files before getting into working directory
+-- git diff head == Show the difference between the files (local rep x worskpace)
+-- git diff == Show the difference between the files (worskpace x index) // Good to see further commits before getting into index stage
+-- git merge == Get file from local rep into workspace, straight away 
