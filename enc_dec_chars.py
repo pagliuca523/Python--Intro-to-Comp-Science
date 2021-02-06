@@ -1,4 +1,5 @@
 ## Software used for enconde letter aka chars and/or decode them
+# Simple Subtitution cipher
 
 def main():
 
